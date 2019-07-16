@@ -12,167 +12,155 @@ class Recipes extends Component {
         <ul>
           <li>
             <figure>
-              <img alt="Apple pie." src={require("./gallery/apple-pie.jpg")} />
-              <figcaption>
-                Apple pie, featuring apples from the latest harvest.
-              </figcaption>
+              <img alt="cereal" src={require("./gallery/cereal.jpg")} />
+              <figcaption>Breakfast cereal</figcaption>
             </figure>
           </li>
           <li>
             <figure>
               <img
-                src={require("./gallery/boston-creme.jpg")}
-                alt="Boston cream pie."
+                src={require("./gallery/chocolateCake.jpg")}
+                alt="Chocolate cake"
               />
-              <figcaption>Boston cream pie is the best!</figcaption>
+              <figcaption>Chocolate Cake</figcaption>
             </figure>
           </li>
           <li>
             <figure>
               <img
-                src={require("./gallery/cherry-alamode.jpg")}
-                alt="Cherry pie with ice cream."
+                src={require("./gallery/grilledChicken.jpg")}
+                alt="Grilled Chicken"
               />
-              <figcaption>
-                Mmm... cherry pie and ice cream hits the spot!
-              </figcaption>
+              <figcaption>Grilled Chicken</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src={require("./gallery/hamburger.jpg")} alt="Hamburger" />
+              <figcaption>Hamburger</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src={require("./gallery/macaroons.jpg")} alt="Macaroons" />
+              <figcaption>Macaroons</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src={require("./gallery/muesli.jpg")} alt="Muesli" />
+              <figcaption>Muesli</figcaption>
             </figure>
           </li>
           <li>
             <figure>
               <img
-                src={require("./gallery/cherry-pie.jpg")}
-                alt="Cherry pie."
+                src={require("./gallery/nougatMousse.jpg")}
+                alt="Nougat Mousse"
               />
-              <figcaption>
-                Cherry pie is available for a short season!
-              </figcaption>
+              <figcaption>Nougat Mousse</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src={require("./gallery/pancakes.jpg")} alt="Pancakes" />
+              <figcaption>Pancakes</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src={require("./gallery/pizza.jpg")} alt="Pizza" />
+              <figcaption>Pizza</figcaption>
             </figure>
           </li>
           <li>
             <figure>
               <img
-                src={require("./gallery/coconut-creme.jpg")}
-                alt="Coconut creme pie."
+                src={require("./gallery/potatoSoup.jpg")}
+                alt="Potato Soup"
               />
-              <figcaption>
-                Coconut cream pie will transport you to the islands.
-              </figcaption>
+              <figcaption>Potato Soup</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src={require("./gallery/prawns.jpg")} alt="Prawns" />
+              <figcaption>Prawns</figcaption>
             </figure>
           </li>
           <li>
             <figure>
               <img
-                src={require("./gallery/gone-pie.jpg")}
-                alt="Pie is all gone."
+                src={require("./gallery/puffPastry.jpg")}
+                alt="Puff Pastry"
               />
-              <figcaption>Hurry before the pie is all gone!</figcaption>
+              <figcaption>Puff Pastry</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src={require("./gallery/spaghetti.jpg")} alt="Spaghetti" />
+              <figcaption>Spaghetti</figcaption>
             </figure>
           </li>
           <li>
             <figure>
               <img
-                src={require("./gallery/keylime-pie.jpg")}
-                alt="Key lime pie."
+                src={require("./gallery/strawberryParfait.jpg")}
+                alt="Strawberry Parfait"
               />
-              <figcaption>
-                Key lime pie, featuring the smaller, sweeter limes of the
-                Florida Keys.
-              </figcaption>
+              <figcaption>Strawberry Parfait</figcaption>
             </figure>
           </li>
           <li>
             <figure>
               <img
-                src={require("./gallery/lemon-meringue.jpg")}
-                alt="Lemon meringue pie."
+                src={require("./gallery/strawberryTart.jpg")}
+                alt="Strawberry Tart"
               />
-              <figcaption>
-                Lemon meringue pie, best consumed the day it's made.
-              </figcaption>
+              <figcaption>Strawberry Tart</figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src={require("./gallery/sushi.jpg")} alt="sushi" />
+              <figcaption>Sushi</figcaption>
             </figure>
           </li>
           <li>
             <figure>
               <img
-                src={require("./gallery/mincemeat.jpg")}
-                alt="Mincemeat pie."
+                src={require("./gallery/toastOmelette.jpg")}
+                alt="Toast Omelette"
               />
-              <figcaption>
-                Mincemeat pie for your traditional Thanksgiving table.
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img src={require("./gallery/mini-pies.jpg")} alt="Mini pies." />
-              <figcaption>Mini-pies... you can eat more than one!</figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img src={require("./gallery/mom-pie.jpg")} alt="Mom pie." />
-              <figcaption>We make the best pies for Mother's Day!</figcaption>
+              <figcaption>Toast Omelette</figcaption>
             </figure>
           </li>
           <li>
             <figure>
               <img
-                src={require("./gallery/peace-pie.jpg")}
-                alt="Peace pie, made of blueberries and raspberries."
+                src={require("./gallery/tomatoSoup.jpg")}
+                alt="Tomato Soup"
               />
-              <figcaption>
-                Our Peace Pie is made of summer's best blueberries and
-                raspberries.
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img src={require("./gallery/peach-pie.jpg")} alt="Peach pie." />
-              <figcaption>Peach pie, a piece of Southern heaven.</figcaption>
+              <figcaption>Tomato Soup</figcaption>
             </figure>
           </li>
           <li>
             <figure>
               <img
-                src={require("./gallery/pie-coffee.jpg")}
-                alt="Pie and coffee."
+                src={require("./gallery/vegetableKebab.jpg")}
+                alt="Vegetable Kebab"
               />
-              <figcaption>
-                What could be better than Merilee's pie and a hot cup of coffee?
-              </figcaption>
+              <figcaption>Vegetable Kebab</figcaption>
             </figure>
           </li>
           <li>
             <figure>
               <img
-                src={require("./gallery/pie-slice-buffet.jpg")}
-                alt="Buffet of pie slices."
+                src={require("./gallery/yogurtPudding.jpg")}
+                alt="Yogurt Pudding"
               />
-              <figcaption>Heaven includes a buffet of pie options!</figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                src={require("./gallery/pumpkin-pie.jpg")}
-                alt="Pumpkin pie."
-              />
-              <figcaption>
-                Pumpkin pie, a best-seller for Thanksgiving!
-              </figcaption>
-            </figure>
-          </li>
-          <li>
-            <figure>
-              <img
-                src={require("./gallery/whole-pie-buffet.jpg")}
-                alt="Whole pie buffet."
-              />
-              <figcaption>
-                When slices aren't enough, offer a buffet of whole pies!
-              </figcaption>
+              <figcaption>Yogurt Pudding</figcaption>
             </figure>
           </li>
         </ul>
