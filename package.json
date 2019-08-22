@@ -1,18 +1,22 @@
 {
-  "name": "my-app",
+  "name": "ghc-recipe-app",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "react": "16.8.6",
-    "react-dom": "16.8.6",
-    "react-router-dom": "5.0.1",
-    "react-scripts": "3.0.1"
-  },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "SKIP_PREFLIGHT_CHECK=true react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "dependencies": {
+    "@material-ui/core": "latest",
+    "@material-ui/icons": "latest",
+    "clsx": "1.0.4",
+    "react": "16.9.0",
+    "prop-types": "15.6.2",
+    "react-dom": "16.9.0",
+    "react-router-dom": "5.0.1",
+    "react-scripts": "3.1.1"
   },
   "eslintConfig": {
     "extends": "react-app"
