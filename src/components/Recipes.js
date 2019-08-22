@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import RecipeReviewCard from "./RecipeCard";
 
 class Recipes extends Component {
   constructor(props, context) {
@@ -11,10 +12,7 @@ class Recipes extends Component {
       <div>
         <ul>
           <li>
-            <figure>
-              <img alt="cereal" src={require("./gallery/cereal.jpg")} />
-              <figcaption>Breakfast cereal</figcaption>
-            </figure>
+            <RecipeReviewCard />
           </li>
           <li>
             <figure>

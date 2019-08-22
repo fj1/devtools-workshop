@@ -26,20 +26,7 @@ class RecipeReviewCard extends Component {
   render() {
     return (
       <Card className="card">
-        <CardHeader
-          avatar={
-            <Avatar aria-label="recipe" className="avatar">
-              R
-            </Avatar>
-          }
-          action={
-            <IconButton aria-label="settings">
-              <MoreVertIcon />
-            </IconButton>
-          }
-          title="Shrimp and Chorizo Paella"
-          subheader="August 22, 2019"
-        />
+        <CardHeader title="Shrimp and Chorizo Paella" />
         <CardMedia
           className="media"
           image="/static/media/cereal.6e64beab.jpg"
@@ -47,9 +34,7 @@ class RecipeReviewCard extends Component {
         />
         <CardContent>
           <Typography variant="body2" color="textSecondary" component="p">
-            This impressive paella is a perfect party dish and a fun meal to
-            cook together with your guests. Add 1 cup of frozen peas along with
-            the mussels, if you like.
+            Perfect party dish and a fun meal to cook together with your guests.
           </Typography>
         </CardContent>
         <CardActions disableSpacing>
