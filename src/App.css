@@ -66,3 +66,26 @@ img {
     flex: 0 0 33%;
   }
 }
+
+.card {
+  max-width: 345;
+}
+
+.media {
+  height: 20px;
+  padding-top: 56.25%;
+}
+
+.expand {
+  transform: rotate(0deg);
+  margin-left: auto;
+}
+
+.expand-open {
+  margin-left: auto;
+  transform: rotate(180deg);
+}
+
+.avatar {
+  background-color: red;
+}

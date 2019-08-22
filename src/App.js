@@ -1,20 +1,21 @@
 import React, { Component } from "react";
-import logo from "./logo.svg";
 import "./App.css";
-import Recipes from "./components/Recipes";
+import RecipeContainer from "./components/RecipeContainer";
+import RecipeReviewCard from "./components/RecipeCard";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 class App extends Component {
-  constructor(props, context) {
-    super(props, context);
-  }
-
   render() {
     return (
       <Router>
         <div className="App">
           <Switch>
-            <Route exact path="/" render={props => <Recipes {...props} />} />
+            <Route
+              exact
+              path="/"
+              render={props => <RecipeContainer {...props} />}
+            />
+            <Route exact path="/card" component={RecipeReviewCard} />
           </Switch>
         </div>
       </Router>
