@@ -13,6 +13,7 @@
     "@material-ui/icons": "latest",
     "clsx": "1.0.4",
     "react": "16.9.0",
+    "prop-types": "15.6.2",
     "react-dom": "16.9.0",
     "react-router-dom": "5.0.1",
     "react-scripts": "3.1.1"

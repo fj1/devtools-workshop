@@ -26,7 +26,7 @@ class RecipeContainer extends Component {
       <Container maxWidth="sm">
         <Box my={4}>
           <Typography variant="h4" component="h1" gutterBottom>
-            What to make for dinner tonight?
+            What's for dinner?
           </Typography>
           <Recipes />
           <Copyright />

@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 import RecipeContainer from "./components/RecipeContainer";
-import RecipeReviewCard from "./components/RecipeCard";
+import RecipeCard from "./components/RecipeCard";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 class App extends Component {
@@ -15,7 +15,7 @@ class App extends Component {
               path="/"
               render={props => <RecipeContainer {...props} />}
             />
-            <Route exact path="/card" component={RecipeReviewCard} />
+            <Route exact path="/card" component={RecipeCard} />
           </Switch>
         </div>
       </Router>

@@ -1,17 +1,16 @@
 import React, { Component } from "react";
+import PropTypes from "prop-types";
 import Card from "@material-ui/core/Card";
 import CardHeader from "@material-ui/core/CardHeader";
 import CardMedia from "@material-ui/core/CardMedia";
 import CardContent from "@material-ui/core/CardContent";
 import CardActions from "@material-ui/core/CardActions";
 import Collapse from "@material-ui/core/Collapse";
-import Avatar from "@material-ui/core/Avatar";
 import IconButton from "@material-ui/core/IconButton";
 import Typography from "@material-ui/core/Typography";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
-import MoreVertIcon from "@material-ui/icons/MoreVert";
 
-class RecipeReviewCard extends Component {
+class RecipeCard extends Component {
   constructor(props, context) {
     super(props, context);
     this.state = {
@@ -19,19 +18,22 @@ class RecipeReviewCard extends Component {
     };
   }
 
+  static propTypes = {
+    title: PropTypes.string.isRequired,
+    imagePath: PropTypes.string.isRequired,
+    calories: PropTypes.string.isRequired
+  };
+
   handleExpandClick = () => {
     this.setState({ expanded: !this.state.expanded });
   };
 
   render() {
+    const { title, imagePath, calories } = this.props;
     return (
       <Card className="card">
-        <CardHeader title="Shrimp and Chorizo Paella" />
-        <CardMedia
-          className="media"
-          image="/static/media/cereal.6e64beab.jpg"
-          title="Cereal dish"
-        />
+        <CardHeader title={title} />
+        <CardMedia className="media" image={imagePath} title="Cereal dish" />
         <CardContent>
           <Typography variant="body2" color="textSecondary" component="p">
             Perfect party dish and a fun meal to cook together with your guests.
@@ -84,4 +86,4 @@ class RecipeReviewCard extends Component {
   }
 }
 
-export default RecipeReviewCard;
+export default RecipeCard;
