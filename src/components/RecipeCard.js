@@ -20,7 +20,7 @@ class RecipeCard extends Component {
 
   static propTypes = {
     title: PropTypes.string.isRequired,
-    imagePath: PropTypes.string.isRequired,
+    image: PropTypes.object.isRequired,
     calories: PropTypes.string.isRequired
   };
 
@@ -29,12 +29,14 @@ class RecipeCard extends Component {
   };
 
   render() {
-    const { title, imagePath, calories } = this.props;
+    const { title, image, calories } = this.props;
     return (
       <Card className="card">
-        <CardHeader title={title} />
-        <CardMedia className="media" image={imagePath} title="Cereal dish" />
+        <CardMedia className="media" image={image} title={title} />
         <CardContent>
+          <Typography gutterBottom variant="h5" component="h2">
+            {title}
+          </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
             Perfect party dish and a fun meal to cook together with your guests.
           </Typography>
