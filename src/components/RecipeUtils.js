@@ -19,6 +19,6 @@ export const getRecipe = recipeName => {
     case "Toast Omelette":
       return "Make omelette with 2 egg whites. Toast your favorite bread and butter it. Slice some tomatoes and spinach. Arrange them on a plate.";
     default:
-      return "Pick the best carb, protein from your pantry, fridge and throw them in the pan!";
+      return "No recipe found!";
   }
 };
