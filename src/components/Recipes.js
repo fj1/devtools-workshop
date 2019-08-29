@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import RecipeCard from "./RecipeCard";
-
 import vegetable from "./gallery/vegetable-kebab.jpg";
 import grilledChicken from "./gallery/grilledChicken.jpg";
 import hamburger from "./gallery/hamburger.jpg";
@@ -22,43 +21,31 @@ class Recipes extends Component {
       <div>
         <ul>
           <li>
-            <RecipeCard
-              title="Vegetable Kebab"
-              image={vegetable}
-              calories="200"
-            />
+            <RecipeCard recipeName="Vegetable Kebab" image={vegetable} />
           </li>
           <li>
-            <RecipeCard title="Hamburger" image={hamburger} calories="200" />
+            <RecipeCard recipeName="Hamburger" image={hamburger} />
           </li>
           <li>
-            <RecipeCard
-              title="Grilled Chicken"
-              image={grilledChicken}
-              calories="200"
-            />
+            <RecipeCard recipeName="Grilled Chicken" image={grilledChicken} />
           </li>
           <li>
-            <RecipeCard title="Pizza" image={pizza} calories="200" />
+            <RecipeCard recipeName="Pizza" image={pizza} />
           </li>
           <li>
-            <RecipeCard title="Potato Soup" image={potatoSoup} calories="200" />
+            <RecipeCard recipeName="Potato Soup" image={potatoSoup} />
           </li>
           <li>
-            <RecipeCard title="Prawns" image={prawns} calories="200" />
+            <RecipeCard recipeName="Prawn" image={prawns} />
           </li>
           <li>
-            <RecipeCard title="Spaghetti" image={spaghetti} calories="200" />
+            <RecipeCard recipeName="Spaghetti" image={spaghetti} />
           </li>
           <li>
-            <RecipeCard title="Sushi" image={sushi} calories="200" />
+            <RecipeCard recipeName="Sushi" image={sushi} />
           </li>
           <li>
-            <RecipeCard
-              title="Toast Omelette"
-              image={toastOmelette}
-              calories="200"
-            />
+            <RecipeCard recipeName="Toast Omelette" image={toastOmelette} />
           </li>
         </ul>
       </div>
