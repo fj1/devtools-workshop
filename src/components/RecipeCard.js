@@ -8,6 +8,7 @@ import Collapse from "@material-ui/core/Collapse";
 import IconButton from "@material-ui/core/IconButton";
 import Typography from "@material-ui/core/Typography";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
+import { getRecipe } from "./RecipeUtils";
 
 class RecipeCard extends Component {
   constructor(props, context) {
@@ -18,7 +19,7 @@ class RecipeCard extends Component {
   }
 
   static propTypes = {
-    title: PropTypes.string.isRequired,
+    recipeName: PropTypes.string.isRequired,
     image: PropTypes.object.isRequired,
     calories: PropTypes.string.isRequired
   };
@@ -28,13 +29,13 @@ class RecipeCard extends Component {
   };
 
   render() {
-    const { title, image, calories } = this.props;
+    const { recipeName, image, calories } = this.props;
     return (
       <Card className="card">
-        <CardMedia className="media" image={image} title={title} />
+        <CardMedia className="media" image={image} title={recipeName} />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            {title}
+            {recipeName}
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
             Perfect party dish and a fun meal to cook together with your guests.
@@ -52,7 +53,12 @@ class RecipeCard extends Component {
         </CardActions>
         <Collapse in={this.state.expanded} timeout="auto" unmountOnExit>
           <CardContent>
-            <Typography paragraph>{calories} Calories</Typography>
+            <Typography variant="body2" color="textSecondary" component="p">
+              {calories} Calories
+            </Typography>
+            <Typography variant="body2" color="textSecondary" component="p">
+              {getRecipe(recipeName)}
+            </Typography>
           </CardContent>
         </Collapse>
       </Card>

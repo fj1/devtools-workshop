@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import RecipeCard from "./RecipeCard";
-
 import vegetable from "./gallery/vegetable-kebab.jpg";
 import grilledChicken from "./gallery/grilledChicken.jpg";
 import hamburger from "./gallery/hamburger.jpg";
@@ -23,39 +22,51 @@ class Recipes extends Component {
         <ul>
           <li>
             <RecipeCard
-              title="Vegetable Kebab"
+              recipeName="Vegetable Kebab"
               image={vegetable}
               calories="200"
             />
           </li>
           <li>
-            <RecipeCard title="Hamburger" image={hamburger} calories="200" />
+            <RecipeCard
+              recipeName="Hamburger"
+              image={hamburger}
+              calories="200"
+            />
           </li>
           <li>
             <RecipeCard
-              title="Grilled Chicken"
+              recipeName="Grilled Chicken"
               image={grilledChicken}
               calories="200"
             />
           </li>
           <li>
-            <RecipeCard title="Pizza" image={pizza} calories="200" />
-          </li>
-          <li>
-            <RecipeCard title="Potato Soup" image={potatoSoup} calories="200" />
-          </li>
-          <li>
-            <RecipeCard title="Prawns" image={prawns} calories="200" />
-          </li>
-          <li>
-            <RecipeCard title="Spaghetti" image={spaghetti} calories="200" />
-          </li>
-          <li>
-            <RecipeCard title="Sushi" image={sushi} calories="200" />
+            <RecipeCard recipeName="Pizza" image={pizza} calories="200" />
           </li>
           <li>
             <RecipeCard
-              title="Toast Omelette"
+              recipeName="Potato Soup"
+              image={potatoSoup}
+              calories="200"
+            />
+          </li>
+          <li>
+            <RecipeCard recipeName="Prawn" image={prawns} calories="200" />
+          </li>
+          <li>
+            <RecipeCard
+              recipeName="Spaghetti"
+              image={spaghetti}
+              calories="200"
+            />
+          </li>
+          <li>
+            <RecipeCard recipeName="Sushi" image={sushi} calories="200" />
+          </li>
+          <li>
+            <RecipeCard
+              recipeName="Toast Omelette"
               image={toastOmelette}
               calories="200"
             />
