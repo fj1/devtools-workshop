@@ -21,55 +21,31 @@ class Recipes extends Component {
       <div>
         <ul>
           <li>
-            <RecipeCard
-              recipeName="Vegetable Kebab"
-              image={vegetable}
-              calories="200"
-            />
+            <RecipeCard recipeName="Vegetable Kebab" image={vegetable} />
           </li>
           <li>
-            <RecipeCard
-              recipeName="Hamburger"
-              image={hamburger}
-              calories="200"
-            />
+            <RecipeCard recipeName="Hamburger" image={hamburger} />
           </li>
           <li>
-            <RecipeCard
-              recipeName="Grilled Chicken"
-              image={grilledChicken}
-              calories="200"
-            />
+            <RecipeCard recipeName="Grilled Chicken" image={grilledChicken} />
           </li>
           <li>
-            <RecipeCard recipeName="Pizza" image={pizza} calories="200" />
+            <RecipeCard recipeName="Pizza" image={pizza} />
           </li>
           <li>
-            <RecipeCard
-              recipeName="Potato Soup"
-              image={potatoSoup}
-              calories="200"
-            />
+            <RecipeCard recipeName="Potato Soup" image={potatoSoup} />
           </li>
           <li>
-            <RecipeCard recipeName="Prawn" image={prawns} calories="200" />
+            <RecipeCard recipeName="Prawn" image={prawns} />
           </li>
           <li>
-            <RecipeCard
-              recipeName="Spaghetti"
-              image={spaghetti}
-              calories="200"
-            />
+            <RecipeCard recipeName="Spaghetti" image={spaghetti} />
           </li>
           <li>
-            <RecipeCard recipeName="Sushi" image={sushi} calories="200" />
+            <RecipeCard recipeName="Sushi" image={sushi} />
           </li>
           <li>
-            <RecipeCard
-              recipeName="Toast Omelette"
-              image={toastOmelette}
-              calories="200"
-            />
+            <RecipeCard recipeName="Toast Omelette" image={toastOmelette} />
           </li>
         </ul>
       </div>

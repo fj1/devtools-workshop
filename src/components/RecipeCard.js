@@ -28,7 +28,7 @@ class RecipeCard extends Component {
   };
 
   render() {
-    const { recipeName, image, calories } = this.props;
+    const { recipeName, image } = this.props;
     return (
       <Card className="card">
         <CardMedia className="media" image={image} title={recipeName} />
