@@ -8,7 +8,7 @@ import Collapse from "@material-ui/core/Collapse";
 import IconButton from "@material-ui/core/IconButton";
 import Typography from "@material-ui/core/Typography";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
-import { getRecipe } from "./RecipeUtils";
+import { getRecipe, getCalories } from "./RecipeUtils";
 
 class RecipeCard extends Component {
   constructor(props, context) {
@@ -20,8 +20,7 @@ class RecipeCard extends Component {
 
   static propTypes = {
     recipeName: PropTypes.string.isRequired,
-    image: PropTypes.object.isRequired,
-    calories: PropTypes.string.isRequired
+    image: PropTypes.object.isRequired
   };
 
   handleExpandClick = () => {
@@ -54,7 +53,7 @@ class RecipeCard extends Component {
         <Collapse in={this.state.expanded} timeout="auto" unmountOnExit>
           <CardContent>
             <Typography variant="body2" color="textSecondary" component="p">
-              {calories} Calories
+              {getCalories(recipeName)} Calories
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
               {getRecipe(recipeName)}

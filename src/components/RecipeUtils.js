@@ -22,3 +22,28 @@ export const getRecipe = recipeName => {
       return "No recipe found!";
   }
 };
+
+export const getCalories = recipeName => {
+  switch (recipeName) {
+    case "Vegetable Kebab":
+      return "500";
+    case "Hamburger":
+      return "1000";
+    case "Grilled Chicken":
+      return "800";
+    case "Pizza":
+      return "600";
+    case "Potato Soup":
+      return "650";
+    case "Prawns":
+      return "1500";
+    case "Spaghetti":
+      return "1200";
+    case "Sushi":
+      return "700";
+    case "Toast Omelette":
+      return "750";
+    default:
+      return "Calories not found!";
+  }
+};
