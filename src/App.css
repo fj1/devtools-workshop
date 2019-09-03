@@ -89,3 +89,9 @@ img {
 .avatar {
   background-color: red;
 }
+
+@media (min-width: 600px) {
+  .MuiContainer-maxWidthSm {
+    max-width: none !important;
+  }
+}
