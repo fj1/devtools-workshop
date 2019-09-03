@@ -26,24 +26,24 @@ export const getRecipe = recipeName => {
 export const getCalories = recipeName => {
   switch (recipeName) {
     case "Vegetable Kebab":
-      return "500";
+      return "500 calories";
     case "Hamburger":
-      return "1000";
+      return "1000 calories";
     case "Grilled Chicken":
-      return "800";
+      return "800 calories";
     case "Pizza":
-      return "600";
+      return "600 calories";
     case "Potato Soup":
-      return "650";
+      return "650 calories";
     case "Prawns":
-      return "1500";
+      return "1500 calories";
     case "Spaghetti":
-      return "1200";
+      return "1200 calories";
     case "Sushi":
-      return "700";
+      return "700 calories";
     case "Toast Omelette":
-      return "750";
+      return "750 calories";
     default:
-      return "Calories not found!";
+      return "No calories found!";
   }
 };

@@ -53,7 +53,7 @@ class RecipeCard extends Component {
         <Collapse in={this.state.expanded} timeout="auto" unmountOnExit>
           <CardContent>
             <Typography variant="body2" color="textSecondary" component="p">
-              {getCalories(recipeName)} Calories
+              <span className="calorie-text">{getCalories(recipeName)}</span>
             </Typography>
             <Typography variant="body2" color="textSecondary" component="p">
               {getRecipe(recipeName)}
