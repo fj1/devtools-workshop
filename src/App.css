@@ -89,3 +89,14 @@ img {
 .avatar {
   background-color: red;
 }
+
+@media (min-width: 600px) {
+  .MuiContainer-maxWidthSm {
+    max-width: none !important;
+  }
+}
+
+.calorie-text {
+  font-weight: 900;
+  color: #008b8b;
+}
