@@ -9,14 +9,13 @@ function Copyright() {
   return (
     <Typography variant="body2" color="textSecondary" align="center">
       {"Copyright © "}
-      <Link color="inherit" href="https://material-ui.com/">
-        Your Website
+      <Link
+        color="inherit"
+        href="https://epic-chandrasekhar-781210.netlify.com/"
+      >
+        GHC Dev Tools Workshop
       </Link>{" "}
       {new Date().getFullYear()}
-      {". Built with "}
-      <Link color="inherit" href="https://material-ui.com/">
-        Material-UI.
-      </Link>
     </Typography>
   );
 }
