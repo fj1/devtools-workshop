@@ -1,8 +1,10 @@
 # Hitchhiker's Guide to Browser Developer Tools
 
-This workshop will be presented at the 2019 [Grace Hopper Celebration](https://ghc.anitab.org/) by [Frances Jurek](https://github.com/fj1) and [Neeha Bollepalli](https://github.com/nbollepalli)
+This workshop will be presented at the 2019 [Grace Hopper Celebration](https://ghc.anitab.org/) by [Frances Jurek](https://github.com/fj1) and [Neeha Bollepalli](https://github.com/nbollepalli).
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is hosted by [Netlify](https://www.netlify.com/) at https://tinyurl.com/hitchhiker-ghc-2019.
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and uses [Material UI](https://material-ui.com/).
 
 ### Installation
 
@@ -32,4 +34,4 @@ Run the app. The following command will automatically open the app in your defau
 npm run start
 ```
 
-You can also access the app by going to http://localhost:3000
+The URL for your app will be http://localhost:3000.
