@@ -16,6 +16,10 @@ function Copyright() {
         GHC Dev Tools Workshop
       </Link>{" "}
       {new Date().getFullYear()}
+      {". Built with "}
+      <Link color="inherit" href="https://material-ui.com/">
+        Material-UI.
+      </Link>
     </Typography>
   );
 }
