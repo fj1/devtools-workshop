@@ -27,7 +27,7 @@ class Recipes extends Component {
             <RecipeCard recipeName="Hamburger" image={hamburger} />
           </li>
           <li>
-            <RecipeCard recipeName="Prawns" image={prawns} />
+            <RecipeCard recipeName="Prawn" image={prawns} />
           </li>
           <li>
             <RecipeCard recipeName="Grilled Chicken" image={grilledChicken} />
