@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./App.css";
 import RecipeContainer from "./components/RecipeContainer";
-import RecipeCard from "./components/RecipeCard";
+import NonResponsiveRecipeContainer from "./components/non-responsive/NonResponsiveRecipeContainer";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 class App extends Component {
@@ -15,7 +15,11 @@ class App extends Component {
               path="/"
               render={props => <RecipeContainer {...props} />}
             />
-            <Route exact path="/card" component={RecipeCard} />
+            <Route
+              exact
+              path="/nr"
+              render={props => <NonResponsiveRecipeContainer {...props} />}
+            />
           </Switch>
         </div>
       </Router>

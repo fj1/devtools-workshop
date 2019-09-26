@@ -2,10 +2,10 @@ import React, { Component } from "react";
 import Container from "@material-ui/core/Container";
 import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
-import Recipes from "./Recipes";
-import { getCopyright } from "./Utils";
+import NonResponsiveRecipes from "./NonResponsiveRecipes";
+import { getCopyright } from "../Utils";
 
-class RecipeContainer extends Component {
+class NonResponsiveRecipeContainer extends Component {
   render() {
     return (
       <Container maxWidth="sm">
@@ -13,7 +13,7 @@ class RecipeContainer extends Component {
           <Typography variant="h4" component="h1" gutterBottom>
             What's for dinner?
           </Typography>
-          <Recipes />
+          <NonResponsiveRecipes />
           {getCopyright()}
         </Box>
       </Container>
@@ -21,4 +21,4 @@ class RecipeContainer extends Component {
   }
 }
 
-export default RecipeContainer;
+export default NonResponsiveRecipeContainer;
